@@ -45,8 +45,8 @@ input {
 .logo {
     display: flex;
     }
-
-#activites {
+    
+#nav-bas-d {
     margin: 0 20px 0 20px;
 }
 
@@ -90,7 +90,7 @@ input {
     border: solid #F2F2F2;
     border-radius: 50px;
 }
-.filtermarg:hover {
+.filtermarg:active {
     color: green;
     border: solid #00ff22;
     border-radius: 50px;
@@ -625,8 +625,104 @@ footer {
     }
 }
 
-@media screen and (max-width: 750px) {
-   
+@media screen and (max-width: 1024px) {
+    .margfilter {
+        margin: 0;
+    }
+    .filtermarg {
+        margin: 15px;
+    }
+    .img {
+        max-width: 260px;
+    }
+    .imgc {
+        max-width: 470px;
+    }
+    .imgb {
+        max-width: 470px;
+    }
+    
+    .room {
+        max-width: 1000px;
+    }
+    .room-top {
+        max-width: 1000px;
+        margin-bottom: 20px;
+    }
+    .activiter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shadow {
+        max-width: 470px;
+    }
+    #endall {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .margfilter {
+        margin: 0;
+    }
+    .filtermarg {
+        margin: 15px;
+    }
+    .img {
+        max-width: 210px;
+    }
+    .imgc {
+        max-width: 300px;
+    }
+    .imgb {
+        max-width: 300px;
+    }
+    .titleactiviter {
+        max-width: 220px;
+    }
+    .room {
+        max-width: 768px;
+    }
+    .room-top {
+        max-width: 768px;
+        margin-bottom: 20px;
+    }
+    .activiter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shadow {
+        max-width: 300px;
+    }
+    #endall {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    #nav-bas-g {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  left: 30px;
+    }
+    #inscrip {
+        position: absolute;
+        margin:0px;
+		  top: 30px;
+		  right: 25px;
+    }
+    .logo {
+        margin: 15px;
+        margin-bottom: 55px;
+    }
+    #nav-bas-d {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  right: 55px;
+    }
+    
     #fontsizetitle {
         font-size: 1.2em;
     }
@@ -634,7 +730,6 @@ footer {
         font-size: 0.8em;
         margin-top: 15px;
     }
-    
     .fa-search {
         font-size: 1em;
     }
@@ -644,6 +739,7 @@ footer {
     .btn {
         display: inline-block;
         visibility: hidden;
+        max-width: 50px;
     }
     #searchresponsive {
         display: flex;
@@ -659,6 +755,7 @@ footer {
         background-color: #0065FC;
         color: white;
         padding: 10px;
+        max-width: 50px;
     }
     .filterresponsive {
         display: flex;
@@ -669,10 +766,22 @@ footer {
     .filtermarg {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 1px;
+        margin: 10px;
     }
+    .filtermarg:nth-of-type(1) {
+        order: 0;
+        margin-left: 0;
+    } 
     .filtermarg:nth-of-type(2) {
         order: 1;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(3) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(4) {
+        order: 0;
         margin-left: 0;
     } 
     .filter {
@@ -694,6 +803,9 @@ footer {
         font-size: 0.8em;
         min-width: 280px;
     }
+    #title-marseille {
+        max-width: 260px;
+    }
     .img {
         min-width: 280px;
         min-height: 200px;
@@ -710,9 +822,11 @@ footer {
     .imgb {
         min-width: 280px;
         height: 350px;
+        max-width: 280px;
     }
     .imgc {
         min-width: 280px;
+        max-width: 280px;
         height: 350px;
     }
     .text-align-start  {
@@ -767,6 +881,10 @@ footer {
         min-width: 300px;
         margin-bottom: 20px;
     }
+    .top {
+        margin: 0;
+        padding: 0;
+    }
     .top1 {
         margin-left: 5px;
         margin-right: 5px;
@@ -783,6 +901,7 @@ footer {
         display: flex;
         flex-direction: column;
         min-width: 300px;
+        max-width: 310px;
     }
     .h3flex {
         min-width: 280px;
@@ -790,17 +909,19 @@ footer {
     }
     footer {
         max-width: 320px;
-        min-width: 320px;
+        min-width: 220px;
         min-height: 320px;
     }
     #endall {
-        min-width: 320px;
+        min-width: 300px;
         min-height: 300px;
-        max-width: 320px;
-        max-height: 320px;
+        max-width: 300px;
+        max-height: 380px;
         display: flex;
         flex-direction: column;
         font-size: 1.1em;
+        margin-left: 0;
+        margin-top: 0;
     }
     .nos-hebergements {
         margin: 10px 0px 10px 0px;
@@ -813,6 +934,7 @@ footer {
     }
     .sec-2 {
         margin-left: 10px;
+        max-width: 320px;
     }
     .sec-3 {
         margin-left: 10px;
@@ -820,5 +942,21 @@ footer {
     #title-marseille {
         font-size: 1.1em;
         margin-left: 5px;
+    }
+    a.color-blue:hover {
+        border-top: none;
+        padding-top: 0px;
+    }
+    .color-blue:active, .color-blue:focus:active {
+        border-bottom: 2px solid #05fd81;
+    }
+    .color-blue:focus {
+        border-bottom: 2px solid #0065FC;
+    }
+    a:visited {
+        color: #ff0000;
+      }
+    .color-blue:focus {
+        border-bottom: 2px solid #0065FC;
     }
 }
