@@ -90,7 +90,12 @@ input {
     border: solid #F2F2F2;
     border-radius: 50px;
 }
-
+.filtermarg:hover {
+    color: green;
+    border: solid #00ff22;
+    border-radius: 50px;
+    border: solid 1px;
+}
 .fami {
     display: flex;
     align-items: center;
@@ -151,7 +156,7 @@ input {
 }
 
 .gray-star {
-    color: #F2F2F2;
+    color: #868686;
 }
 
 #title-marseille {
@@ -414,7 +419,7 @@ input {
 }
 
 footer {
-    background-color: #F2F2F2;
+    background-color: #c4c3c3;
     padding: 20px;
 }
 
@@ -780,27 +785,25 @@ footer {
         min-width: 300px;
     }
     .h3flex {
-        min-width: 320px;
+        min-width: 280px;
+        max-width: 280px;
     }
     footer {
         max-width: 320px;
-        min-width: 300px;
-        min-height: 400px;
-        padding: 0;
+        min-width: 320px;
+        min-height: 320px;
     }
     #endall {
-        min-width: 300px;
+        min-width: 320px;
         min-height: 300px;
+        max-width: 320px;
+        max-height: 320px;
         display: flex;
         flex-direction: column;
         font-size: 1.1em;
-        margin-left: 20px;
     }
     .nos-hebergements {
         margin: 10px 0px 10px 0px;
-    }
-    .propos {
-        margin-top: 30px;
     }
     .assistance {
         margin: 0;
