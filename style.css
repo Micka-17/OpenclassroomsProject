@@ -631,9 +631,6 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-    .margfilter {
-        margin: 0;
-    }
     .filtermarg {
         margin: 15px;
     }
@@ -667,9 +664,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .margfilter {
-        margin: 0;
-    }
     .filtermarg {
         margin: 15px;
     }
