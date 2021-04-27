@@ -699,7 +699,260 @@ footer {
     }
 }
 
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 414px) {
+    #nav-bas-g {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  left: 70px;
+    }
+    #inscrip {
+        position: absolute;
+        margin:0px;
+		  top: 30px;
+		  right: 45px;
+    }
+    .logo {
+        margin: 15px;
+        margin-bottom: 55px;
+    }
+    #activites {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  right: 95px;
+    }
+    
+    #fontsizetitle {
+        font-size: 1.2em;
+    }
+    #fontsize-title {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+    .fa-search {
+        font-size: 1em;
+    }
+    .form {
+        font-size: 0.3em;
+    }
+    .btn {
+        display: inline-block;
+        visibility: hidden;
+        max-width: 50px;
+    }
+    #searchresponsive {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .btn:before {
+        visibility: visible;
+        font-family: FontAwesome; 
+        content: "\f002";
+        color: #0065FC;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #0065FC;
+        color: white;
+        padding: 10px;
+        max-width: 50px;
+    }
+    .filterresponsive {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 200px;
+    }
+    .filtermarg {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .filtermarg:nth-of-type(1) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(2) {
+        order: 1;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(3) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(4) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.8em;
+    }
+    #h3filter {
+        margin-left: 5px;
+    }
+    #info {
+        margin-bottom: 10px;
+    }
+    #inforesponsive {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        font-size: 0.8em;
+        min-width: 280px;
+    }
+    #title-marseille {
+        max-width: 260px;
+    }
+    .img {
+        min-width: 380px;
+        min-height: 200px;
+    }
+    .imga {
+        min-width: 50px;;
+        min-height: 50px;
+        max-width: 90px;
+        max-height: 110px;
+    }
+    .fontsize{
+        font-size: 1.4em;
+    }
+    .imgb {
+        min-width: 280px;
+        height: 350px;
+        max-width: 380px;
+    }
+    .imgc {
+        min-width: 280px;
+        max-width: 380px;
+        height: 350px;
+    }
+    .text-align-start  {
+        font-size: 0.5em;
+    }
+    #h1pop {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.1em;
+        margin-left: 5px;
+
+    }
+    .room {
+        background-color: transparent;
+        min-width: 390px;
+        display: block;
+    }
+    #img1 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img2 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img3 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img4 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img5 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img6 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #aff {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0;
+    }
+    .part-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .room-top {
+        min-width: 380px;
+        margin-bottom: 20px;
+    }
+    .top {
+        margin: 0;
+        padding: 0;
+    }
+    .top1 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top3 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .activiter {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        max-width: 414px;
+    }
+    .shadow { 
+        max-width: 410px;
+    }
+    .h3flex {
+        min-width: 280px;
+        max-width: 280px;
+    }
+    footer {
+        max-width: 414px;
+        min-width: 220px;
+        min-height: 320px;
+    }
+    #endall {
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 300px;
+        max-height: 380px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1em;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .nos-hebergements {
+        margin: 10px 0px 10px 0px;
+    }
+    .assistance {
+        margin: 0;
+    }
+    .sec-1 {
+        margin-left: 10px;
+    }
+    .sec-2 {
+        margin-left: 10px;
+        max-width: 320px;
+    }
+    .sec-3 {
+        margin-left: 10px;
+    }
+    #title-marseille {
+        font-size: 1.1em;
+        margin-left: 5px;
+    }
+    a.color-blue:hover {
+        border-top: none;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
     #nav-bas-g {
         position: absolute;
         margin:0px;
@@ -716,7 +969,256 @@ footer {
         margin: 15px;
         margin-bottom: 55px;
     }
-    #nav-bas-d {
+    #activites {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  right: 55px;
+    }
+    
+    #fontsizetitle {
+        font-size: 1.2em;
+    }
+    #fontsize-title {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+    .fa-search {
+        font-size: 1em;
+    }
+    .form {
+        font-size: 0.2em;
+    }
+    .btn {
+        display: inline-block;
+        visibility: hidden;
+        max-width: 50px;
+    }
+    #searchresponsive {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .btn:before {
+        visibility: visible;
+        font-family: FontAwesome; 
+        content: "\f002";
+        color: #0065FC;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #0065FC;
+        color: white;
+        padding: 10px;
+        max-width: 50px;
+    }
+    .filterresponsive {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 200px;
+    }
+    .filtermarg {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .filtermarg:nth-of-type(1) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(2) {
+        order: 1;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(3) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filtermarg:nth-of-type(4) {
+        order: 0;
+        margin-left: 0;
+    } 
+    .filter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.8em;
+    }
+    #h3filter {
+        margin-left: 5px;
+    }
+    #info {
+        margin-bottom: 10px;
+    }
+    #inforesponsive {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        font-size: 0.8em;
+        min-width: 280px;
+    }
+    #title-marseille {
+        max-width: 260px;
+    }
+    .img {
+        min-width: 310px;
+        min-height: 200px;
+    }
+    .imga {
+        min-width: 50px;;
+        min-height: 50px;
+        max-width: 90px;
+        max-height: 110px;
+    }
+    .fontsize{
+        font-size: 1.4em;
+    }
+    .imgb {
+        min-width: 280px;
+        height: 350px;
+        max-width: 310px;
+    }
+    .imgc {
+        min-width: 310px;
+        max-width: 280px;
+        height: 350px;
+    }
+    .text-align-start  {
+        font-size: 0.5em;
+    }
+    #h1pop {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.1em;
+        margin-left: 5px;
+
+    }
+    .room {
+        background-color: transparent;
+        min-width: 290px;
+        display: block;
+    }
+    #img1 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img2 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img3 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img4 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img5 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #img6 {
+        box-shadow: 1px 1px 10px 1px rgb(151 145 145);
+        margin-bottom: 15px;
+    }
+    #aff {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0;
+    }
+    .part-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .room-top {
+        min-width: 300px;
+        margin-bottom: 20px;
+    }
+    .top {
+        margin: 0;
+        padding: 0;
+    }
+    .top1 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top3 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .activiter {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        max-width: 310px;
+    }
+    .h3flex {
+        min-width: 280px;
+        max-width: 280px;
+    }
+    footer {
+        max-width: 375px;
+        min-width: 220px;
+        min-height: 320px;
+    }
+    #endall {
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 300px;
+        max-height: 380px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1em;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .nos-hebergements {
+        margin: 10px 0px 10px 0px;
+    }
+    .assistance {
+        margin: 0;
+    }
+    .sec-1 {
+        margin-left: 10px;
+    }
+    .sec-2 {
+        margin-left: 10px;
+        max-width: 320px;
+    }
+    .sec-3 {
+        margin-left: 10px;
+    }
+    #title-marseille {
+        font-size: 1.1em;
+        margin-left: 5px;
+    }
+    a.color-blue:hover {
+        border-top: none;
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 321px) {
+    #nav-bas-g {
+        position: absolute;
+        margin:0px;
+		  top: 95px;
+		  left: 30px;
+    }
+    #inscrip {
+        position: absolute;
+        margin:0px;
+		  top: 30px;
+		  right: 25px;
+    }
+    .logo {
+        margin: 15px;
+        margin-bottom: 55px;
+    }
+    #activites {
         position: absolute;
         margin:0px;
 		  top: 95px;
@@ -946,17 +1448,5 @@ footer {
     a.color-blue:hover {
         border-top: none;
         padding-top: 0px;
-    }
-    .color-blue:active, .color-blue:focus:active {
-        border-bottom: 2px solid #05fd81;
-    }
-    .color-blue:focus {
-        border-bottom: 2px solid #0065FC;
-    }
-    a:visited {
-        color: #ff0000;
-      }
-    .color-blue:focus {
-        border-bottom: 2px solid #0065FC;
     }
 }
