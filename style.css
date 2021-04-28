@@ -736,12 +736,7 @@ footer {
         margin: 0 0 0 0; 
         padding: 0 0 10px 0;
     }
-
-    #nav-bas-g:hover, #activites:hover {
-        border-top: none; 
-        border-bottom: #0065FC solid 2px; 
-        padding-bottom: 12px;
-    }
+    
     #inscrip {
         position: absolute;
         margin:0px;
@@ -982,29 +977,7 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-    #nav-bas-g {
-        position: absolute;
-        margin:0px;
-		  top: 95px;
-		  left: 30px;
-    }
-    #inscrip {
-        position: absolute;
-        margin:0px;
-		  top: 30px;
-		  right: 25px;
-    }
-    .logo {
-        margin: 15px;
-        margin-bottom: 55px;
-    }
-    #activites {
-        position: absolute;
-        margin:0px;
-		  top: 95px;
-		  right: 55px;
-    }
-    
+
     #fontsizetitle {
         font-size: 1.2em;
     }
@@ -1231,28 +1204,6 @@ footer {
     }
 }
 @media screen and (max-width: 321px) {
-    #nav-bas-g {
-        position: absolute;
-        margin:0px;
-		  top: 95px;
-		  left: 30px;
-    }
-    #inscrip {
-        position: absolute;
-        margin:0px;
-		  top: 30px;
-		  right: 25px;
-    }
-    .logo {
-        margin: 15px;
-        margin-bottom: 55px;
-    }
-    #activites {
-        position: absolute;
-        margin:0px;
-		  top: 95px;
-		  right: 55px;
-    }
     
     #fontsizetitle {
         font-size: 1.2em;
