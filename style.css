@@ -699,29 +699,59 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
+    body {
+        margin : 0 0 0 0;
+    }
+
+    nav {
+        margin-left: 0px;
+         height: 145px; 
+         margin-bottom: 0px; 
+         min-width: 320px; 
+         max-width: 480px;
+        }
+
+    #nav-top {
+        display: block;
+    }
+
     #nav-bas-g {
+        min-width: 50%; 
+        text-align: center; 
         position: absolute;
-        margin:0px;
-		  top: 95px;
-		  left: 70px;
+        top: 110px; 
+        left: 0%;
+        border-bottom: #f2f2f2 2px solid;
+        margin: 0 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #activites {
+        min-width: 50%; 
+        text-align: center;
+        position: absolute; 
+        top: 110px; 
+        left: 50%; 
+        border-bottom: #f2f2f2 2px solid; 
+        margin: 0 0 0 0; 
+        padding: 0 0 10px 0;
+    }
+
+    #nav-bas-g:hover, #activites:hover {
+        border-top: none; 
+        border-bottom: #0065FC solid 2px; 
+        padding-bottom: 12px;
     }
     #inscrip {
         position: absolute;
         margin:0px;
-		  top: 30px;
-		  right: 45px;
+        top: 30px;
+        right: 45px;
     }
     .logo {
         margin: 15px;
         margin-bottom: 55px;
-    }
-    #activites {
-        position: absolute;
-        margin:0px;
-		  top: 95px;
-		  right: 95px;
-    }
-    
+    }  
     #fontsizetitle {
         font-size: 1.2em;
     }
