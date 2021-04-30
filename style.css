@@ -1158,7 +1158,7 @@ footer {
         flex-direction: column-reverse;
     }
     .room-top {
-        min-width: 300px;
+        min-width: 355px;
         margin-bottom: 20px;
     }
     .top {
@@ -1226,6 +1226,12 @@ footer {
     a.color-blue:hover {
         border-top: none;
         padding-top: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .room-top {
+        min-width: 335px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 321px) {
