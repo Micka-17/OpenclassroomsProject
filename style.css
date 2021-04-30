@@ -89,17 +89,19 @@ input {
     border: solid #F2F2F2;
     border-radius: 50px;
 }
-.filtermarg:hover {
-    color: rgb(95, 131, 230);
+.eco:hover {
+    color: #0059fd;
     border: solid #0059fd;
-    border-radius: 50px;
-    border: solid 1px;
 }
 .fami {
     display: flex;
     align-items: center;
     border: solid #F2F2F2;
     border-radius: 50px;
+}
+.fami:hover {
+    color: #0059fd;
+    border: solid #0059fd;
 }
 
 .love {
@@ -108,12 +110,21 @@ input {
     border: solid #F2F2F2;
     border-radius: 50px;
 }
+.love:hover {
+    color: #0059fd;
+    border: solid #0059fd;
+}
 
 .dog {
     display: flex;
     align-items: center;
     border: solid #F2F2F2;
     border-radius: 50px;
+}
+
+.dog:hover {
+    color: #0059fd;
+    border: solid #0059fd;
 }
 
 #inscrip {
