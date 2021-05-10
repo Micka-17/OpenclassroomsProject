@@ -50,6 +50,21 @@ input {
     margin: 0 20px 0 20px;
 }
 
+.color-blue {
+    color: black;
+}
+
+.color-blue:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+    padding-top: 31px;
+}
+
+#activites {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .h1 {
     font-weight: bold;
 }
@@ -130,21 +145,6 @@ input {
 #inscrip {
     color: #0065FC;
     font-weight: 600;
-}
-
-.color-blue {
-    color: black;
-}
-
-.color-blue:hover {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-    padding-top: 31px;
-}
-
-#activites {
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .btn {  
@@ -398,12 +398,6 @@ input {
     border-radius: 10px;
 }
 
-.activiter {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .imgc {
     border-radius: 10px 10px 0px 0px;
     width: 420px;
@@ -422,6 +416,12 @@ input {
 
 .titleactiviter {
     margin: 15px 0px 0px 15px;
+}
+
+.activiter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .flex {
@@ -1016,14 +1016,14 @@ footer {
     .form {
         font-size: 0.2em;
     }
+    #searchresponsive {
+        display: flex;
+        margin-bottom: 15px;
+    }
     .btn {
         display: inline-block;
         visibility: hidden;
         max-width: 50px;
-    }
-    #searchresponsive {
-        display: flex;
-        margin-bottom: 15px;
     }
     .btn:before {
         visibility: visible;
