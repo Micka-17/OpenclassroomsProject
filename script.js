@@ -6,7 +6,7 @@ const firstLink = document.getElementById("activites");
 window.addEventListener('resize', function () { 
     window.location.reload(); 
 		firstLink.onclick = function() {
-			if (window.innerWidth < 520) {
+			if (window.innerWidth < 768) {
 				this.style.color = '#0065FC';
 				twoLink.style.color = 'grey';
 				this.style.borderBottom = '2px solid blue';
@@ -22,7 +22,7 @@ window.addEventListener('resize', function () {
 		}
 	
 		twoLink.onclick = function() {
-			if (window.innerWidth < 520) {
+			if (window.innerWidth < 768) {
 				this.style.color = '#0065FC';
 				firstLink.style.color = 'grey';
 				this.style.borderBottom = '2px solid blue';
