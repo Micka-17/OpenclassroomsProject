@@ -485,10 +485,14 @@ footer {
     }
     .room, .room-top {
         max-width: 100%;
+        padding: 15px;
      }
      .room-top {
         margin-bottom: 40px;
      }
+     .sec-2 {
+        margin: 0;
+    }
 }
 @media screen and (max-width: 800px) {
      .activiter {
@@ -636,7 +640,6 @@ footer {
     .nos-hebergements {
         margin: 0;
     }
-    
 }
 @media screen and (max-width: 740px) {
     .activiter {
@@ -690,5 +693,18 @@ footer {
         margin: 6px;
         font-size: 0.9em;
         max-width: 140px;
+    }
+    .imga {
+        max-width: 110px;
+        max-height: 110px;
+    }
+    .top1, .top2, .top3 {
+        max-height: 110px;
+    }
+    .text-align-start {
+        margin: 10px;
+    }
+    html {
+        overflow-x: hidden;
     }
 }
