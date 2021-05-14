@@ -1,10 +1,10 @@
 const twoLink = document.getElementById("nav-bas-g");
 const firstLink = document.getElementById("activites");
 
-
-
-window.addEventListener('resize', function () { 
-    window.location.reload(); 
+window.addEventListener('resize', function () {
+	if (window.innerWidth >= 768) {
+		window.location.reload(); 
+	} else {
 		firstLink.onclick = function() {
 			if (window.innerWidth < 768) {
 				this.style.color = '#0065FC';
@@ -20,7 +20,7 @@ window.addEventListener('resize', function () {
 				// example borderBottom : none
 			}
 		}
-	
+
 		twoLink.onclick = function() {
 			if (window.innerWidth < 768) {
 				this.style.color = '#0065FC';
@@ -36,4 +36,5 @@ window.addEventListener('resize', function () {
 				// example borderBottom : none
 			}
 		}
+	}
 });

@@ -96,6 +96,7 @@ input {
 .filtermarg {
     display: flex;
     margin: 10px 0px 10px 40px;
+    cursor: pointer;
 }
 .eco {
     display: flex;
@@ -187,6 +188,7 @@ input {
     grid-row: 4;
     justify-self: flex-start;
     margin-left: 25px;
+    font-weight: bold;
 }
 
 .part-1 {
@@ -360,6 +362,24 @@ input {
     object-fit: cover;
 }
 
+#img-pomegues {
+    border-radius: 10px 10px 0px 0px;
+    width: 420px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+#img-frioul {
+    border-radius: 10px 10px 0px 0px;
+    width: 420px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
 .img-big {
     border-radius: 10px 10px 0px 0px;
     width: 420px;
@@ -435,6 +455,12 @@ footer {
     }
     .imga {
         max-width: 200px;
+    }
+    #img-frioul {
+        max-width: 100%;
+    }
+    #img-pomegues {
+        max-width: 100%;
     }
 }
 
@@ -654,7 +680,7 @@ footer {
         flex-wrap: nowrap;
         max-height: none;
     }
-    .img-big, .img-medium {
+    .img-big, .img-medium, #img-frioul, #img-pomegues {
         height: 250px;
         width: 610px;
     }
@@ -670,10 +696,11 @@ footer {
         font-size: 0.8em;
         overflow-x: hidden;
     }
-    .img-big, .img-medium {
+    .img-big, .img-medium, #img-frioul, #img-pomegues {
         height: 150px;
         min-width: 100%;
     }
+
     .shadow {
         min-width: 100%;
     }
