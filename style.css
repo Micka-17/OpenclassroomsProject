@@ -98,46 +98,46 @@ input {
     margin: 10px 0px 10px 40px;
     cursor: pointer;
 }
-.eco {
+#eco {
     display: flex;
     align-items: center;
     border: solid #F2F2F2;
     border-radius: 50px;
 }
-.eco:hover {
+#eco:hover {
     color: #0059fd;
     border: solid #0059fd;
 }
-.fami {
+#fami {
     display: flex;
     align-items: center;
     border: solid #F2F2F2;
     border-radius: 50px;
 }
-.fami:hover {
-    color: #0059fd;
-    border: solid #0059fd;
-}
-
-.love {
-    display: flex;
-    align-items: center;
-    border: solid #F2F2F2;
-    border-radius: 50px;
-}
-.love:hover {
+#fami:hover {
     color: #0059fd;
     border: solid #0059fd;
 }
 
-.dog {
+#love {
+    display: flex;
+    align-items: center;
+    border: solid #F2F2F2;
+    border-radius: 50px;
+}
+#love:hover {
+    color: #0059fd;
+    border: solid #0059fd;
+}
+
+#dog {
     display: flex;
     align-items: center;
     border: solid #F2F2F2;
     border-radius: 50px;
 }
 
-.dog:hover {
+#dog:hover {
     color: #0059fd;
     border: solid #0059fd;
 }
@@ -319,26 +319,7 @@ input {
     flex-direction: column;
 }
 
-.top1  {
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 15px;
-    box-shadow: 1px 1px 10px 1px rgb(151, 145, 145);
-}
-
-.top2  {
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 15px;
-    margin-top: 40px;
-    box-shadow: 1px 1px 10px 1px rgb(151, 145, 145);
-}
-
-.top3  {
+.hebergement-populaire  {
     display: flex;
     background-color: #ffffff;
     border-radius: 10px;
@@ -486,7 +467,7 @@ footer {
         max-height: 100%;
         max-width: 130px;
     }
-    .top1, .top2, .top3, #imgpop1 {
+    .hebergement-populaire {
         max-height: 140px;
     }
     .brplus {
@@ -592,7 +573,7 @@ footer {
         color: #0065FC;
         padding-bottom: 21px;
     }
-    .top1, .top2, .top3, #h2pop, #title-marseille, .shadow {
+    .hebergement-populaire, #h2pop, #title-marseille, .shadow {
         margin-left: 0;
         margin-right: 0;
     }
@@ -731,7 +712,7 @@ footer {
         max-width: 110px;
         max-height: 110px;
     }
-    .top1, .top2, .top3 {
+    .hebergement-populaire {
         max-height: 110px;
     }
     .text-align-start {
