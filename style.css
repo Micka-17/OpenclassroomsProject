@@ -633,11 +633,12 @@ footer {
     #inscrip {
         position: absolute;
         margin:0px;
-        top: 30px;
-        right: 45px;
+        top: 45px;
+        right: 30px;
     }
     .logo {
         margin-bottom: 75px;
+        margin-left: -18px;
     }  
     .room {
         background-color: transparent;
@@ -655,8 +656,9 @@ footer {
         margin-top: 25px;
         margin-left: 0;
     }
-}
-@media screen and (max-width: 767px) {
+    header {
+        font-size: 1.2em;
+    }
     #endall {
         min-width: 300px;
         min-height: 300px;
@@ -666,7 +668,11 @@ footer {
     .nos-hebergements {
         margin: 0;
     }
+    #inforesponsive {
+        display: flex;
+    }
 }
+
 @media screen and (max-width: 740px) {
     .activiter {
         display: flex;
