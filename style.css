@@ -6,6 +6,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-weight: bold; font-size: 1.3em;
+}
+
+a {
+    text-decoration: none; color: black ;
+}
+
 .img {
     border-radius: 10px 10px 0px 0px;
     width: 350px;
@@ -18,6 +26,7 @@
 input {
     padding: 11px;
     border: 1px solid #F2F2F2;
+    font-weight: bold;
 }
 
 .sec-1 {
@@ -32,22 +41,26 @@ input {
     margin: 30px;
 }
 
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-right: 30px;
+
+#logo {width: 85px; position: absolute; top: 30px; margin-left: 2%;}
+
+nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%;}
+
+#nav-top {display: flex; justify-content: flex-end;}
+
+    
+#nav-bas-g {
+    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
 }
 
-.logo {
-    display: flex;
-    }
-    
-#nav-bas-d {
-    margin: 0 20px 0 20px;
+#activites {
+    font-weight: 500; font-size: 0.9em; margin-right: 50px; padding: 25px 20px 0 20px; border-top: solid white 2px;
 }
+
+#nav-bas-g:hover, #activites:hover {color: #0065FC; border-top: solid 2px #0065FC;}
+
+#inscrip {font-size: 0.9em; font-weight: bold; color: #0065FC; margin-top: 27px}
+#inscrip:hover {color: black}
 
 .color-blue {
     color: black;
@@ -59,10 +72,7 @@ input {
     padding-top: 31px;
 }
 
-#activites {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+
 
 .h1 {
     font-weight: bold;
@@ -663,6 +673,11 @@ footer {
     }
 }
 @media screen and (max-width: 700px) {
+
+    #nav-bas-g:hover, #activites:hover {
+        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;
+    }
+    
     .activiter {  
         flex-wrap: nowrap;
         max-height: none;
@@ -683,6 +698,11 @@ footer {
         font-size: 0.8em;
         overflow-x: hidden;
     }
+
+    #nav-bas-g:hover, #activites:hover {
+        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;
+    }
+
     .img-big, .img-medium, #img-frioul, #img-pomegues {
         height: 150px;
         min-width: 100%;
@@ -703,6 +723,11 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+
+    #nav-bas-g:hover, #activites:hover {
+        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;
+    }
+
     .filtermarg {
         margin: 6px;
         font-size: 0.9em;
