@@ -618,11 +618,10 @@ footer {
         top: 110px; 
         left: 0%;
         border-bottom: #0065FC 2px solid;
-        color: #0065FC;
         margin: 0 0 0 0;
         padding: 0 0 10px 0;
+        color: #0065FC;
     }
-    
     #inscrip {
         position: absolute;
         margin:0px;
