@@ -574,14 +574,14 @@ footer {
         align-items: flex-start;
         font-size: 1em;
     }
-    a.color-blue:hover {
-        border-top: none;
-        padding-top: 0px;
+    
+    #nav-bas-g {
+        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px; color: #0065FC;
     }
-    .color-blue:focus-within {
-        border-bottom: 2px solid #0065FC;
-        color: #0065FC;
-        padding-bottom: 21px;
+    
+    .activiter {  
+        flex-wrap: nowrap;
+        max-height: none;
     }
     .hebergement-populaire, #h2pop, #title-marseille, .shadow {
         margin-left: 0;
@@ -617,10 +617,8 @@ footer {
         position: absolute;
         top: 110px; 
         left: 0%;
-        border-bottom: #0065FC 2px solid;
         margin: 0 0 0 0;
         padding: 0 0 10px 0;
-        color: #0065FC;
     }
     #inscrip {
         position: absolute;
@@ -675,14 +673,6 @@ footer {
 }
 @media screen and (max-width: 700px) {
 
-    #nav-bas-g:hover, #activites:hover {
-        border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;
-    }
-    
-    .activiter {  
-        flex-wrap: nowrap;
-        max-height: none;
-    }
     .img-big, .img-medium, #img-frioul, #img-pomegues {
         height: 250px;
         width: 610px;
